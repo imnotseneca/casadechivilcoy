@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Casa de Estudiantes de Chivilcoy</title>
+</head>
+<body  id="inicio">
+    <!-- Nav-bar starts -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-2 fixed-top bg-opacity">
+        <div class="container">
+            <a href="#" class="navbar-brand mx-0">Casa de Estudiantes de Chivilcoy</a>
+            <button 
+            class="navbar-toggler px-2" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-2"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item px-1"><a href="#quienesSomos" class="nav-link">¿Quiénes somos?</a></li>
+                    <li class="nav-item px-2"><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li class="nav-item px-1"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+         </div>
+    </nav>
+        <!-- Nav-bar ends -->
+        <!-- Main starts -->
+        <main>
+            <section class="bg-dark text-light p-5 p-xxl-0 pt-lg-5 text-center text-sm-start">
+                <div class="container">
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <div>
+                            <h1>¿Querés <span class="text-danger">estudiar y vivir</span> en La Plata?</h1>
+                            <p class="lead my-4">La ciudad de La Plata cuenta con diversas y prestigiosas universidades públicas. Además es una localidad muy rica en arte y cultura. Estudiar en esta ciudad te capacitará como profesional y promoverá la madurez de tu personalidad a lo largo de los años.</p>
+                            <button class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Empezar a inscribirme!</button>
+                        </div>
+                        <img class="img-fluid w-50 mx-4 d-none d-md-block p-lg-0 mt-xxl-5" src="img/main.svg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Main ends -->
+        <!-- Fachade section starts -->
+        <section class="bg-fachada text-light p-5">
+        </section>
+        <!-- Fachade section ends -->
+        <!-- Who we are section starts -->
+        <section class="bg-light text-dark p-5" id="quienesSomos">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/whoweare.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Quienes somos:</h2>
+                        <p class="lead">Somos un grupo de personas que nacieron y vivieron gran parte de su vida en la ciudad de Chivilcoy. La casa de estudiantes de Chivilcoy es una institución que proporciona espacios de alojamiento para aquellos varones que carecen del sustento económico necesario para afrontar un estilo de vida lejos de su hogar nativo.</p>
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
+                              Leer más
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#queHacemos">¿Qué hacemos?</a></li>
+                              <li><a class="dropdown-item" href="#comoUnirte">Como unirte.</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Who we are section ends -->
+        <!-- What we do section starts -->
+        <section class="bg-dark text-light p-5" id="queHacemos">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/whatwedo.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Qué hacemos:</h2>
+                        <p class="lead">Nuestros principales objetivos están vinculados al crecimiento como profesionales que se involucran en ambientes académicos como también autodidáctas. Logramos establecer una convivencia que priorice el respeto mutuo, como asi también hacia la institución que nos aloja.</p>
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-light dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
+                              Leer más
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#quienesSomos">¿Quiénes somos?</a></li>
+                              <li><a class="dropdown-item" href="#comoUnirte">Como unirte.</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What we do section ends -->
+        <!-- How to join section starts -->
+        <section class="bg-ligth text-dark p-5" id="comoUnirte">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/howtojoin.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Cómo unirte:</h2>
+                        <p class="lead">Para ingresar a la Casa de Estudiantes será necesario rellenar un formulario on-line donde especifiques los datos solicitados, que luego serán revisados para continuar con entrevistas presenciales donde se evaluará, entre muchas cosas, el contexto socio-económico de la persona.</p>
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
+                              Leer más
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#quienesSomos">¿Quiénes somos?</a></li>
+                              <li><a class="dropdown-item" href="#queHacemos">¿Qué hacemos?</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- How to join section ends -->
+        <!-- FAQ accordion starts -->
+        <section class="p-5 bg-dark text-light" id="faq">
+            <div class="container">
+                <h2 class="text-center mb-4">Preguntas Frecuentes:</h2>
+                <div class="accordion" id="accordionExample">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          ¿Dónde nos encontramos?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          La casa se encuentra ubicada en <strong>calle 63 numero 928</strong> localizada entre 13 y 14. En las cercanias del <a href="https://es.wikipedia.org/wiki/Parque_Saavedra_(La_Plata)"><i>Parque Saavedra</i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          ¿Qué requisitos son necesarios para ser tenido en cuenta?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <span class="mx-3"><strong>Se tomará especial atención a los siguientes requisitos:</strong></span>
+                          <ul>
+                            <li>Haber terminado el secundario en la ciudad de Chivilcoy.</li>
+                            <li>Poseer habilidades de comunicación en grupo.</li>
+                            <li>Haber incorporado el conocimiento de tareas domésticas.</li>
+                            <li>Contexto socio-económico.</li>
+                            <li>Proyecciones a futuro.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ¿Puedo visitar la casa antes de entrar?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Sí.</strong> De igual manera, será necesario estar inscripto previamente y avisar con anticipación a los habitantes actuales.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- FAQ accordio ends -->
+        <!-- Carousel Gallery starts -->
+        <section class="p-5" id="galeria">
+            <div class="container news-input">
+                <h2 class="text-center mb-4 mt-2">Galeria:</h2>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/main.jpg" class="img-fluid d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Fachada</h5>
+                          <p>Foto tomada en el año 2012</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Baño negro.jpg" class="img-fluid d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Baño chico</h5>
+                          <p class="">Luego de la restauración en el año 2019.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Cocina.jpg" class="img-fluid d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Cocina</h5>
+                          <p>Luego de la restauración en el año 2016</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Donaciones.jpg" class="img-fluid d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Recibimiento de donaciones</h5>
+                          <p>por parte de la Municipalidad de Chivilcoy.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/biblitoeca.jpg" class="img-fluid d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Biblioteca</h5>
+                          <p>Luego de ser refaccionada e implementar donaciones.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+        <!-- Carousel Gallery ends -->
+        <!-- Contact info -->
+        <section class="p-5 bg-dark text-light d-flex flex-column align-items-center" id="contacto">
+            <div class="container-xxl contact-card">
+                <div class="d-flex row ">
+                    <h2 class="text-center mb-4">Contacto:</h2>
+                    <ul class="list-group list-group-flush lead p-3">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ubicación:</span> <a href="https://www.google.com/maps/place/C.+63+928,+B1904+La+Plata,+Provincia+de+Buenos+Aires/data=!4m2!3m1!1s0x95a2e89dd56c7b05:0x6710ab726bf88844?sa=X&ved=2ahUKEwjAjNL9nc_6AhVht5UCHU3JCwwQ8gF6BAgTEAE" class="text-danger linknone"><i class="fa-solid fa-map-location-dot fa-xl"></i></a>
+                        </li>
+                        <li class="list-group-item">
+                             <span class="fw-bold">Telefono & Whatsapp:</span> <a aria-label="Chat on WhatsApp" href="https://wa.me/542346579737?text=Hola%20estoy%20interesado%20en%20hablar%20sobre%20la%20casa%20de%20estudiantes." class="linknone text-success"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                         </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Redes sociales:</span> <a href="https://www.facebook.com/casadeestudiantes.chivilcoy/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+         </div>
+         <div class="col my-1">
+          <button type="submit" id="submit" name="submit" class="btn btn-danger container-fluid p-3"><a href="mailto:casachivilcoyvarones@gmail.com?subject=Consulta%20de%20un%20visitante%3A&body=Hola%2C%20me%20llamo%20(tuNombre)%20y%20quer%C3%ADa%20consultarles%20lo%20siguiente%3A%0A-%0A-%0A-%0A-%0A-" class="link-light linknone fw-bold">Escribinos un e-mail</a></button>
+         </div>
+            <div id="error"></div>
+            <div id="success-msg"></div>
+          </div>
+        </div>
+      </div>
+        </section>
+         <!-- Contact info ends-->
+         <!-- Footer starts -->
+         <footer class="p-5 bg-light text-center text-dark position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; 2022 <a href="https://github.com/imnotseneca" class="linknone text-danger">Bruno Corrao.</a> </p>
+
+                <a href="" class="position-absolute bottom-0 end-0 m-3 link-danger">
+                    <i class="fa-solid fa-arrow-up fa-2xl"></i>
+                </a>
+            </div>
+
+         </footer>
+         <!-- Footer ends -->
+         <!-- Modal for inscription -->
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="enroll">Comenzar la inscripción:</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="lead">Será necesario que completes y envíes el siguiente <a href="https://docs.google.com/forms/d/e/1FAIpQLSdom6TTlOiSw_a4Dns_Z3ww3OIzDsh_TMfy24jfmsE0--KXYA/closedform" class="link-danger">formulario</a>.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal for newsletter -->
+        <div class="modal fade" id="newsButton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="newsButton">Información recibida</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Pronto recibirás noticias de la Casa De Estudiantes. Gracias!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/be727bc14f.js" crossorigin="anonymous"></script>     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

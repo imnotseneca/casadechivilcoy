@@ -1,0 +1,49 @@
+body::before {
+    display: block;
+    content: '';
+    height: 56px;
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+    .news-input {
+        width: 40%;
+    }
+    .contact-card {
+        width: 50%;
+    }
+}
+
+.linknone {
+    text-decoration: none;
+}
+
+.bg-opacity {
+    background-color: rgba(var(--bs-dark-rgb),0.8)!important;
+}
+
+form {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
+}
+
+form input, form textarea {
+    border: 0;
+    outline: none;
+    background-color: #F5F5F5;
+} 
+
+.bg-fachada {
+    height: 55vh;
+    background-image: url(img/fachada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale();
+    transform: scale();
+}
