@@ -13,8 +13,39 @@ body::before {
     }
 }
 
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+        gap: 2em;
+    }
+    p {
+        font-size: 1em !important;
+    }
+
+    h1, 
+    h2, 
+    h3, 
+    p, 
+    span {
+        text-align: center;
+    }
+
+    #comoUnirte, #queHacemos, #quienesSomos {
+        text-align: center;
+        padding: 2rem !important;
+    }
+    .requirement-list {
+        text-align: left !important;
+    }
+    .list-group, .title-logo {
+        font-size: 1em;
+    }
+  }
+
+ 
 .linknone {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .bg-opacity {
