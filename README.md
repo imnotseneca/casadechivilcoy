@@ -6,6 +6,6 @@ This is the **second website** I built for my portfolio. Designed for an educati
 ![CdCHMain](https://user-images.githubusercontent.com/103332103/218278343-a0d8f33d-547a-46d5-8202-91eadc7ac5b0.png)
 
 
-**Link to the project:** [https://casadechivilcoy.netlify.app/](https://casadechivilcoy.vercel.app/)
+**Link to the project:** https://casadechivilcoy.vercel.app/
 
 **Tech used:** HTML, CSS + Bootstrap 5.0, JavaScript.
